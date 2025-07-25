@@ -2,6 +2,8 @@
 
 1st Solution For Conversational Multi-Doc QA Workshop & International Challenge @ WSDM'24 - Xiaohongshu.Inc
 
+Our paper：[Leveraging Large Language Models for Conversational Multi-Doc Question Answering: The First Place of WSDM Cup 2024](https://aclanthology.org/2025.findings-acl.19/) has been accepted by ACL 2025
+
 ## Introduction
 
 This repo contains the source code of our competition in WSDM Cup 2024: [Conversational Multi-Doc QA](https://sites.google.com/view/wsdm24-docqa)
@@ -224,13 +226,23 @@ It will generate ```emb_a_s_8_0_1_2_3_4_5_6_7.zip``` in the root folder, which i
 If you find our work helpful, please consider citing the following paper:
 
 ```
-@misc{li2024place,
-      title={The First Place Solution of WSDM Cup 2024: Leveraging Large Language Models for Conversational Multi-Doc QA}, 
-      author={Yiming Li and Zhao Zhang},
-      year={2024},
-      eprint={2402.18385},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{li-zhang-2025-leveraging,
+    title = "Leveraging Large Language Models for Conversational Multi-Doc Question Answering: The First Place of {WSDM} Cup 2024",
+    author = "Li, Yiming  and
+      Zhang, Zhao",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.19/",
+    pages = "349--355",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Conversational multi-doc question answering aims to answer specific questions based on the retrieved documents as well as the contextual conversations. In this paper, we introduce our winning approach for the ``Conversational Multi-Doc QA'' challenge in WSDM Cup 2024, which exploits the superior natural language understanding and generation capability of Large Language Models (LLMs). We first adapt LLMs to the task, then devise a hybrid training strategy to make the most of in-domain unlabeled data. Moreover, an advanced text embedding model is adopted to filter out potentially irrelevant documents, and several approaches are designed and compared for the model ensemble. Equipped with all these techniques, our solution finally ranked 1st place in WSDM Cup 2024, surpassing its rivals to a large extent. The source codes have been released at https://github.com/zhangzhao219/WSDM-Cup-2024."
 }
 ```
 
