@@ -7,7 +7,7 @@
 
 **Github 开源地址：[https://github.com/zhangzhao219/WSDM-Cup-2024](https://github.com/zhangzhao219/WSDM-Cup-2024)**
 
-**论文地址：[https://arxiv.org/abs/2402.18385](https://arxiv.org/abs/2402.18385)**
+**论文地址：[Leveraging Large Language Models for Conversational Multi-Doc Question Answering: The First Place of WSDM Cup 2024](https://aclanthology.org/2025.findings-acl.19/)** (Acceped by ACL 2025)
 
 ## 方案简介
 对话式问答旨在根据对话中识别的用户意图生成正确且有意义的答案，在现代搜索引擎和对话系统中发挥着至关重要的作用。 然而，这仍然具有挑战性，特别是对于当前正在流行的话题，因为在语言模型在训练阶段无法获得当下的知识。 尽管可以通过检索增强的方式为模型提供多个相关文档作为上下文信息，但模型仍然面临着无法从长文本中获取有效信息，被大量无关信息输入误导的风险。 基于来自小红书的真实文本数据，WSDM Cup 2024 发起了 “对话式多文档问答” 挑战赛，以鼓励对该问题的进一步探索。
