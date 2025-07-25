@@ -2,13 +2,13 @@
 
 1st Solution For Conversational Multi-Doc QA Workshop & International Challenge @ WSDM'24 - Xiaohongshu.Inc
 
-Our paper：[Leveraging Large Language Models for Conversational Multi-Doc Question Answering: The First Place of WSDM Cup 2024](https://aclanthology.org/2025.findings-acl.19/) has been accepted by ACL 2025
-
 ## Introduction
 
 This repo contains the source code of our competition in WSDM Cup 2024: [Conversational Multi-Doc QA](https://sites.google.com/view/wsdm24-docqa)
 
-Please refer to our paper for details in this competition: [The First Place Solution of WSDM Cup 2024: Leveraging Large Language Models for Conversational Multi-Doc QA](https://arxiv.org/abs/2402.18385)
+Please refer to our paper for details (Accepted by **ACL 2025**):
+
+[Leveraging Large Language Models for Conversational Multi-Doc Question Answering: The First Place of WSDM Cup 2024](https://aclanthology.org/2025.findings-acl.19/)
 
 ## Method Overview
 
